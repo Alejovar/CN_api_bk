@@ -6,9 +6,9 @@ const pool = new Pool({
     database: 'api',
     password: 'jett',
     port: 5432,
-    ssl: {
-    	ca: fs.readFileSync('CaCertificate-db_S.pub') 
-    }
+    //ssl: {
+    	//ca: fs.readFileSync('CaCertificate-db_S.pub') 
+    //}
 })
 
 
