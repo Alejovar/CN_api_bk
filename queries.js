@@ -2,7 +2,7 @@ const Pool = require('pg').Pool
 var fs = require('fs');
 const pool = new Pool({
     user: 'CN_Api',
-    host: 'localhost',
+    host: localhost,
     database: 'api',
     password: 'jett',
     port: 5432,
